@@ -1,0 +1,93 @@
+.mint-cell-wrapper{
+	font-size: 0.28rem;
+	height: 1rem;
+	padding: 0 0.3rem;
+}
+.mint-radio-core{
+	width: 0.47rem;
+	height: 0.47rem;
+}
+.mint-radio-core::after{
+    top: 0.12rem;
+    left: 0.12rem;
+    position: absolute;
+    width: 0.19rem;
+    height: 0.19rem;
+}
+.mint-cell-allow-right::after {
+    border: solid 0.05rem #c8c8cd;
+    right: 0.47rem;
+    width: 0.12rem;
+    height: 0.12rem;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+.mint-cell-value.is-link{
+	margin-right: 0.56rem;
+}
+.mint-header{
+	background: #35B46F;
+	height: 1rem;
+}
+.mint-button-icon{
+		color: #fff;
+}
+.mint-header-title{
+	color: #fff;
+}
+.mint-navbar .mint-tab-item.is-selected{
+	color: #35B46F;
+	border-bottom: 3px solid #35B46F;
+}
+.mintui-back{
+	font-size: 0.37rem;
+}
+.mint-header-title{
+	font-size: 0.33rem;
+}
+.mint-tab-item-label{
+	font-size: 0.33rem;
+}
+.mint-cell-title img{
+	height: 0.33rem;
+	width: 0.33rem;
+}
+.mint-cell-title span{
+	font-size: 0.33rem;
+	color: #888;
+}
+.mint-button--large{
+	margin: 0 5%;
+	width: 90%;
+	background: #35B46F;
+	color: #fff;
+	font-size: 0.33rem;
+	height: 1rem;
+}
+
+.bmi .content .mint-switch-core{
+	width: 1.6rem;
+	height: .65rem;
+	border-radius: .37rem;
+	background:#35B46F;
+}
+.bmi .content .mint-switch-core::before{
+	width:1.6rem;
+	height: .65rem;
+	background:#35B46F;
+}
+.bmi .content .mint-switch-core::after{
+	width:.6rem;
+	height: .6rem;
+	
+}
+.mint-switch-input:checked + .mint-switch-core::after{
+	transform: translateX(1rem)
+}
+
+.mint-switch-input:checked + .mint-switch-core{
+	background:#ffc107
+}
+.bmi .mint-cell-wrapper .mint-field-core{
+	text-align:right;
+}

@@ -1,0 +1,51 @@
+接口地址：http://183.58.24.160:37405/pcn-core
+http://183.58.24.160:37405/hcn-web
+
+pcn-core和hcn-web两个都有接口
+
+账号密码 正式环境
+13960000003，qwerty
+
+测试环境
+13958136509 
+asdfgh
+
+
+医生账号
+18672992712 123456
+
+13714547212 qwerty  深圳的账号
+
+居民账号
+15988404782 123456
+
+13000000004吧，密码123qwe
+
+13758243893 19831126
+X-Service-Id
+健康档案：pcn.archiveService
+慢病管理也是
+
+http://10.8.3.39:8090/pcn-core/doctor/index.html 
+
+http://10.8.3.39:8090/pcn-core/person/index.html 
+
+上传ftp路径 /usr/local/tomcat-pcn-core-8090/webapps/pcn-core/person/
+
+
+http://10.8.3.52:8080/account/doLogout.do（内网）
+
+http://122.224.131.235:9022/workspace/myWorkspace.do?projectId=4#-12（外网）
+  账号 xiaomaoaaa 19831126
+
+
+看app请求数据的软件 
+百度搜索 fillder抓取app
+
+教程 http://jingyan.baidu.com/article/3a2f7c2e0d5f2126aed61175.html
+
+测试服务git仓库地址
+git@10.8.3.34:pcn/pcn-web.git
+密码  提供不了 
+
+http://10.8.3.39:8090/pcn-core/#/  部署到深证的压缩代码查看地址 账号 13714547212

@@ -1,0 +1,148 @@
+.header {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #3ab76f;
+}
+
+.header .mint-header {
+	height: 1rem;
+	font-size: .4rem;
+	background-color: #4eab52;
+}
+
+.session {
+	margin: 1rem 0;
+}
+
+.mint-navbar {
+	margin-bottom: 3px;
+}
+
+.mint-tab-item-label {
+	font-size: .25rem;
+}
+
+.mint-navbar .mint-tab-item.is-selected {
+	border-bottom: 3px solid #4eab52;
+	color: #4eab52;
+}
+
+.mint-checkbox-input:checked+.mint-checkbox-core {
+	background-color: #4eab52;
+	border-color: #4eab52;
+}
+
+.mint-cell-wrapper {
+	font-size: .28rem;
+}
+
+.mint-cell {
+	min-height: .8rem;
+}
+
+.mint-cell:last-child {
+	background-image: none;
+}
+
+.zjzf_footer {
+	height: .8rem;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+}
+.zjzf_footer .mint-checklist-title {
+	display: none;
+}
+.zjzf_footer .mint-checklist {
+	float: left;
+	width: 30%;
+}
+.zjzf_footer .mint-cell-wrapper {
+	background-image: none;
+}
+.zjzf_footer .mint-checkbox-core {
+	/*width: .26rem;
+    height: .26rem;*/
+}
+.zjzf_footer .zjzf_footer_right {
+	float: right;
+}
+.zjzf_footer .mint-button {
+	background: #4eab52;
+	height: .8rem;
+	width: 1.6rem;
+	font-size: .28rem;
+	border-radius: 0;
+	float: right;
+}
+.zjzf_footer .zjzf_footer_right_price {
+	margin-right: .8rem;
+	line-height: .8rem;
+	float: right;
+	font-size: .28rem;
+}
+.zjzf_footer .zjzf_footer_right_price_chart {
+	color: grey;
+}
+.zjzf_footer .zjzf_footer_right_price_num {
+	color: #E74B3C;
+}
+
+.session .zjzf_org_list {
+	color: #4eab52;
+}
+
+.session .mint-tab-container .zjzf_pay_list{
+	padding-left: 5px;
+}
+
+.gy_zjzf_final .mint-cell{
+	padding: 0 10px;
+}
+.gy_zjzf_final .pay_info .mint-cell {
+	min-height: .7rem;
+}
+.gy_zjzf_final .pay_info .extraFeeDesc {
+	background: #fffad0;
+	color: #E74B3C;
+}
+.gy_zjzf_final .mint-cell-wrapper {
+	background-image: none;
+}
+.gy_zjzf_final .selfPay{
+	margin: .2rem 0;
+}
+.mint-radio-input:checked + .mint-radio-core{
+	background-color: #4eab52;
+	border-color: #4eab52;
+}
+.gy_zjzf_final .mint-button{
+	margin: 1rem 10%;
+	background-color: #4eab52;
+	width: 80%;
+}
+
+.body .mint-radiolist-title{
+	text-align: center;
+	height: 1rem;
+	font-size: .4rem;
+	background-color: #4eab52;
+	margin: 0;
+	color: #fff;
+	line-height: 1rem;
+}
+
+.body .mint-cell-wrapper{
+	padding: 0 10px;
+}
+
+.body .mint-field-core{
+	text-align: right;
+	padding-right: 0.2rem;
+}

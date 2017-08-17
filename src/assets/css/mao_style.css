@@ -1,0 +1,22 @@
+.mao_report .mint-searchbar-inner{border-radius: 5px;padding:0.05rem .14rem;height: .66rem;}
+.mao_report .mint-search{height:100%;}
+.mao_report .mint-searchbar{background-color: #FAFAFA;}
+.mao_report .mint-searchbar-inner i{font-size:.23rem;}
+.mao_report .mint-search .mint-searchbar-inner .mint-searchbar-core{text-align: center;}
+.mao_report .mint-search .mint-searchbar-cancel{font-size:.33rem;}
+.mao_report .mint-loadmore-text{font-size:.33rem;}
+.mint-navbar .mint-tab-item.is-selected{margin-bottom: 0px;}
+.mint-button--large{margin: 0 auto;display: block;width: 90%; margin-top: 0.8rem; color: #fff;background: #35B46F;font-size: 0.45rem;}
+.mint-header{background: #35B46F;}
+.mint-tab-item-label{font-size: 0.33rem;}
+.mint-navbar .mint-tab-item.is-selected{color: #35B46F;border-bottom: 3px solid #35B46F;}
+.mint-cell{font-size: 0.33rem;}
+.mint-field-core{direction: rtl;}
+.mint-datetime{display: block;}
+html,body{display: block;}
+.mao_map #map .anchorBL{height: 100% !important;}
+.mao_map #map .BMap_bubble_content{width: 100%;height: 100%;font-size: .33rem;}
+.mao_map #map .BMap_bubble_title{width: 100% !important;height: .6rem !important;font-size: .33rem;}
+/*.mao_map #map .navtrans-view{display: none !important;}*/
+.mao_map #map .mfooter .expand{display: none !important;}
+.mdetection .header .mint-header-button .mint-button-text img{width:.4rem;height:.4rem;}

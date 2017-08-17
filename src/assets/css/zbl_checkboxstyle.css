@@ -1,0 +1,46 @@
+.my_checkbox {
+    position: relative;
+}
+
+.my_checkbox input {
+    visibility: hidden;
+}
+
+.my_checkbox label {
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: .5rem;
+    left: .4rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+}
+
+.my_checkbox label:after {
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    background: transparent;
+    top: 6px;
+    left: 7px;
+    border: 3px solid #00CDFF;
+    border-top: none;
+    border-right: none;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.my_checkbox label:hover::after {
+    /*opacity: 0.5;*/
+}
+
+.my_checkbox input[type=checkbox]:checked+label:after {
+    opacity: 1;
+}

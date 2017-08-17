@@ -1,0 +1,54 @@
+//点击登录
+
+login() {
+                let params = {
+                    "username": this.username,
+                    "password": md5(this.password),//需要MD5加密
+                    "tenantId": "hcn.zhongshan",
+                };
+                if (this.username != "" && this.password != "") {
+                	Indicator.open('加载中...');
+                    requestLoginon(params).then(res => {
+                        if (res.code == 200) {
+
+                            sessionStorage.setItem('userInfo', JSON.stringify(res.body));
+                            this.$router.push('home')
+                        } else {
+                        	
+                        }
+                       Indicator.close(); 
+                    })
+                } else {
+
+                    alert(1111)
+                }
+            },
+  //忘记密码获取验证码
+        getPassword() {
+                let params = ["hcn.zhongshan","18672992712"]
+                commonAjax(params, 'pcn.pcnSmsService', 'getDocIdentifyingCode').then(res => {
+                     if (res.code == 200) {
+
+                    }
+                })
+                
+            },
+            //获取验证码之后 点击下一步
+       Passwordvalid() {
+                let params = ["18672992712","845619"]
+                commonAjax(params, 'pcn.pcnSmsService', 'validateCode').then(res => {
+                     if (res.code == 200) {
+
+                    }
+                })
+                
+            },
+            //输入密码之后确定
+        confirmPassword(){
+                let params ={"username":"18672992712","password":md5("123456")};
+                requestConfirmPassword(params).then(res => {
+                     if (res.code == 200) {
+
+                    }
+                })
+            }

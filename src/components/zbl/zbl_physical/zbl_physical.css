@@ -1,0 +1,8 @@
+.zbl_physical body { margin-right:10 auto;margin-bottom:20 auto; padding:0; font-size:0.95em; font-family: 'Microsoft YaHei',arial,helvetica,sans-serif; color: #111;}
+.zbl_physical ol, .zbl_physical li, .zbl_physical p { margin:0;}
+.zbl_physical ol {  font-weight:bold; line-height:1.8; color:#dfb3a0;}
+.zbl_physical li { margin-bottom:15px;}
+.zbl_physical p { font-weight:normal; color:#333;}
+.zbl_physical header { width:100%; text-align:center; line-height:2.4; font-size:1.4em; font-weight:bold; color:#dfb3a0;}
+.zbl_physical img { width:auto;}
+.zbl_physical .img { text-align:center;}

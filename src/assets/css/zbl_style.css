@@ -1,0 +1,105 @@
+/*to zbl_qyxq.vue*/
+.mint-field .mint-cell-value input {
+    margin-right: .5rem;
+    text-align: right;
+}
+
+/*to zbl_qyxq_searchdoct.vue*/
+.mint-search .mint-searchbar {
+    padding: 6px 8px 6px 30px;
+    background-color: #00cdff;
+}
+.mint-search .mint-searchbar .mint-searchbar-cancel {
+    font-size: .3rem;
+    color: #fff;
+}
+.mint-search .mint-searchbar .mint-searchbar-core {
+    font-size: .25rem;
+    padding-left: .2rem;
+}
+.mint-search .mint-searchbar i.mintui-search {
+    font-size: .4rem;
+}
+
+/*to zbl_qyxq_hometown.vue*/
+.mint-cell-wrapper {
+    position: relative;
+}
+.mint-cell-wrapper .provinceCity {
+    position: absolute;
+    left: .3rem;
+}
+
+.szArea .mint-cell-value span {
+    position: absolute;
+    left: 10px;
+}
+/*to zbl_qyxq_searchdoct.vue*/
+.mint-search-list {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    padding-top: 0;
+}
+
+.mybaseinfo_habits .mint-cell-wrapper {
+    background-image: linear-gradient(180deg, #fff, #fff 50%, transparent 50%);
+}
+
+.zbl_mybaseinfo .mint-cell-value {
+    color: #000;
+}
+
+.zbl_qyxq_signed .mint-checkbox-input:checked + .mint-checkbox-core {
+    border-color: #67cc70;
+    background-color: #67cc70;
+}
+
+.zbl_zytz .mint-cell-wrapper, .zbl_zytz .mint-cell:last-child {
+    background-image: none;
+}
+.zbl_zytz .mint-radio-core::after {
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    width: 4px;
+    height: 8px;
+    content: ' ';
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s,-webkit-transform .2s;
+    -webkit-transform: rotate(45deg) scale(0);
+    transform: rotate(45deg) scale(0);
+    border: 2px solid transparent;
+    border-top: 0;
+    border-left: 0;
+}
+.zbl_zytz .mint-radio-input:checked + .mint-radio-core:after {
+    -webkit-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+    border-color: #fff;
+    background-color: #44bb6f;
+}
+.zbl_zytz .mint-radio-input:checked + .mint-radio-core {
+    border-color: #42ba6f;
+    background-color: #42ba6f;
+}
+.zbl_zytz .mt-progress-progress {
+    background-color: orange;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.zbl_zytz .mt-progress-runway {
+    border-radius: 4px;
+    opacity: 0.6;
+}
+/*.zbl_zytz .mint-radio-label {
+    color: grey;
+}
+.zbl_zytz .mint-radio-label.selected {
+    color: #000;
+}*/
